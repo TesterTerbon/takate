@@ -1,4 +1,4 @@
-LiquidSmooth Source
+Takate Source
 ===================
 To get started with takate, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/version-control.html).
