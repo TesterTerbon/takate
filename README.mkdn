@@ -1,6 +1,6 @@
 LiquidSmooth Source
 ===================
-To get started with LiquidSmooth, you'll need to get
+To get started with takate, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/version-control.html).
 
 Create the Directories
@@ -25,14 +25,14 @@ Enter the following to download the "repo" binary:
 You may need to reboot for these changes to take effect. 
 Now enter the following to initialize the repository:
 
-    cd ~/liquid
+    cd ~/takate
 
 Repositories:
 ---------------
 
 Before you continue --> run this in the terminal
 
-    repo init -u git://github.com/LiquidSmooth/android.git -b kitkat
+    repo init -u git://github.com/TesterTerbon/takate.git -b kitkat
 
     repo sync
 
@@ -47,7 +47,7 @@ To create kernel manifest:
 
     mkdir local_manifests
 
-    example: copy sgs4_manifest.xml .repo/local_manifests
+    example: copy trebon_manifest.xml .repo/local_manifests
 
     repo sync
 
@@ -64,5 +64,5 @@ Enter the number of the build you want to start and press enter
 
 Build the Code:
 
-    time mka liquid
+    time mka takate
 
