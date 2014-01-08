@@ -17,6 +17,8 @@ Install the Repository
 ----------------------
 
 Enter the following to download the "repo" binary:
+    PATH=~/bin:$PATH
+    cd ~/bin
 
     curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
 
